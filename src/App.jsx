@@ -8,7 +8,7 @@ import yt from './images/yt.png';
 import discord from './images/discord.png';
 import cover from './images/cover.png';
 import stop from './song/stopplayin.mp3';
-import bg from './videos/car.mp4';
+import bg from './videos/anime.mp4';
 import git from './images/git2.png';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
   const [entered, setEntered] = useState(false); // State for animation
 
   // Typewriter effect
-  const [bioText, setBioText] = useState("Owner of shdw.site");
+  const [bioText, setBioText] = useState("I Love my girlfriend <3");
   const [index, setIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
 
@@ -156,23 +156,23 @@ function App() {
         <p1 className='num'>{viewCount}</p1>
         <img src={pfp} className='pfp' alt="Profile Picture" />
         <div className='info' >
-          <h1 className='name'>shadow</h1>
+          <h1 className='name'>sysinvaider</h1>
           <h1 className='bio'>{bio}</h1> {/* Bio with typewriter effect */}
         </div>
         <div className='links'>
-          <a href="https://twitter.com/2HB2QedJXb7055" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/Unknow44713?t=KFU-KVaDu4n_Jfmy_0TSgw&s=09&mx=2" target="_blank" rel="noopener noreferrer">
             <img src={twitter} className='link1' alt="Twitter" />
           </a>
-          <a href="https://github.com/movemented" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Tunned" target="_blank" rel="noopener noreferrer">
             <img src={git} className='link2' alt="GitHub" />
           </a>
-          <a href="https://www.instagram.com/movemented/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/sysinvaider/" target="_blank" rel="noopener noreferrer">
             <img src={insta} className='link3' alt="Instagram" />
           </a>
           <a href="https://www.youtube.com/channel/UCbrSndkaflZIa6HaCBHLRvA" target="_blank" rel="noopener noreferrer">
             <img src={yt} className='link4' alt="YouTube" />
           </a>
-          <a href="https://discord.com/users/1079862959360184390" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.com/users/1288450714862882826" target="_blank" rel="noopener noreferrer">
             <img src={discord} className='link5' alt="Discord" />
           </a>
         </div>
@@ -197,17 +197,17 @@ function App() {
         <div className='div2'></div>
         <button
           className='button2'
-          onClick={() => handleCopyAddress1('ltc1qwu5kth29x3ev63fuex4ln873kdwdxdnvw0fvdq', 'LTC Address')}
+          onClick={() => handleCopyAddress1('ltc1qwu5kth29x3ev63fuex4ln873kdwdxdnvw0fvdq', 'https://discord.gg/Auef6J9hYD')}
           data-label={cssLabel1}
         >
-          LTC
+          〤
         </button>
         <button
           className='button1'
-          onClick={() => handleCopyAddress('bc1qmdde26zln58kprcz2fxf7980ad9jfnpxa7ev4p', 'BTC Address')}
+          onClick={() => handleCopyAddress('bc1qmdde26zln58kprcz2fxf7980ad9jfnpxa7ev4p', 'https://discord.gg/Auef6J9hYD')}
           data-label={cssLabel}
         >
-          BTC
+          〤
         </button>
       </div>
     </div>
